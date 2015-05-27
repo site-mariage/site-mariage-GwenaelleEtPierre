@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Josefin Sans Light"),
+    local("JosefinSans-Light"),
+    url("http://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z04GofcKVZz6wtzX_QUIqsI.woff2")
+       format("woff2"),
+    url("http://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z2Fp2sMiApZm5Dx7NpSTOZk.woff")
+       format("woff");
+}
+
+@font-face {
+    font-family: "Maven Pro";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Maven Pro Regular"),
+    local("MavenProRegular"),
+    url("http://fonts.gstatic.com/s/mavenpro/v7/MG9KbUZFchDs94Tbv9U-pVtXRa8TVwTICgirnJhmVJw.woff2")
+       format("woff2"),
+    url("http://fonts.gstatic.com/s/mavenpro/v7/MG9KbUZFchDs94Tbv9U-pT8E0i7KZn-EPnyo3HZu7kw.woff")
+       format("woff");
+}
+
+@font-face {
+    font-family: "Gabrielle";
+    src: url("polices/Gabrielle.ttf") format("truetype");
+    font-weight: normal;
+    font-style normal;
+}
+
+
+body {
+    background: url("images/fond.png") center top no-repeat ivory;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-family: "Gabrielle";
+    text-align: center;
+    font-weight: normal;
+    color: DarkTurquoise;
+    font-size: 4em;
+}
+
+header h2 {
+    font-family: "Gabrielle";
+    text-align: center;
+    font-weight: normal;
+    color: DarkTurquoise;
+    position: relative;
+    top: -30px;
+    font-size: 2em;
+}
+
+header nav {
+    display: block;
+    max-width: 900px;
+    margin: auto;
+}
+
+header nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav li {
+    display: inline-block;
+    width: 19.63%;
+    height: 50px;
+    background-color: #0AB;
+    margin: 0px;
+}
+
+header nav li:hover {
+    background-color: #0CD;
+}
+
+header nav li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 13px;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+}
+
+header nav li a:first-letter {
+    font-size: 1.2em;
+}
+
+#contenu {
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 3px 3px 3px #333;
+    background-color: rgba(255,255,255,0.7);
+    padding: 0;
+    padding-bottom: 20px;
+    color: #005859;
+    font-family: "Maven Pro";
+}
+
+#contenu * {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#contenu h1 {
+    background-color: white;
+    margin: 0;
+    padding: 15px;
+    border-bottom: 2px solid #777;
+    text-align: center;
+    font-family: "Josefin Sans";
+    color: #777;
+}
+
+#contenu h2 {
+    font-family: "Josefin Sans";
+    margin-left: 70px;
+}
+
+footer {
+    background: url("images/decoration-page-300x92.png")
+                   no-repeat center center;
+    margin: auto;
+    margin-top: 20px;
+    height: 100px;
+}
