@@ -48,6 +48,11 @@ header h1 {
     font-size: 4em;
 }
 
+header h1 a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 header h2 {
     font-family: "Gabrielle";
     text-align: center;
@@ -99,7 +104,7 @@ header nav li a:first-letter {
 #contenu {
     max-width: 1000px;
     margin: auto;
-    box-shadow: 3px 3px 3px #333;
+    box-shadow: 1px 2px 5px #333;
     background-color: rgba(255,255,255,0.7);
     padding: 0;
     padding-bottom: 20px;
@@ -125,6 +130,17 @@ header nav li a:first-letter {
 #contenu h2 {
     font-family: "Josefin Sans";
     margin-left: 70px;
+}
+
+#contenu .image_cadree {
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    border: #cccccc solid 1px;
+    box-shadow:
+    0 0 0 20px white,
+    1px 2px 5px 21px rgba(0, 0, 0, 0.7);
 }
 
 footer {
