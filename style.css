@@ -112,7 +112,7 @@ header nav li a:first-letter {
     font-family: "Maven Pro";
 }
 
-#contenu * {
+#contenu > * {
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -141,6 +141,19 @@ header nav li a:first-letter {
     box-shadow:
     0 0 0 20px white,
     1px 2px 5px 21px rgba(0, 0, 0, 0.7);
+}
+
+#contenu a {
+    color: #4078C0;
+    text-decoration: none;
+}
+
+#contenu a:hover {
+    text-decoration: underline;
+}
+
+#contenu a[href^=mailto] {
+    color: #00E;
 }
 
 footer {
