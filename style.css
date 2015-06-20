@@ -132,12 +132,18 @@ header nav li a:first-letter {
     margin-left: 70px;
 }
 
-#contenu .image_cadree {
+#contenu .photo {
     display: block;
+    border: #cccccc solid 1px;
+}
+
+#contenu .centree {
     margin: auto;
     margin-top: 35px;
     margin-bottom: 30px;
-    border: #cccccc solid 1px;
+}
+
+#contenu .cadre_20 {
     box-shadow:
     0 0 0 20px white,
     1px 2px 5px 21px rgba(0, 0, 0, 0.7);
