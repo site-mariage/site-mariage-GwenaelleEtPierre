@@ -129,18 +129,32 @@ header nav li a:first-letter {
 
 #contenu h2 {
     font-family: "Josefin Sans";
-    margin-left: 70px;
+    clear: both;
 }
 
 #contenu .photo {
     display: block;
     border: #cccccc solid 1px;
+    margin-bottom: 50px;
 }
 
 #contenu .centree {
     margin: auto;
     margin-top: 35px;
-    margin-bottom: 30px;
+}
+
+#contenu .gauche {
+    float: left;
+}
+
+#contenu .droite {
+    float: right;
+}
+
+#contenu .cadre_10 {
+    box-shadow:
+    0 0 0 10px white,
+    1px 2px 5px 11px rgba(0, 0, 0, 0.7);
 }
 
 #contenu .cadre_20 {
@@ -160,6 +174,10 @@ header nav li a:first-letter {
 
 #contenu a[href^=mailto] {
     color: #00E;
+}
+
+.clear_float {
+    clear: both;
 }
 
 footer {
