@@ -141,6 +141,7 @@ header nav li a:first-letter {
 #contenu .centree {
     margin: auto;
     margin-top: 35px;
+    margin-bottom: 40px;
 }
 
 #contenu .gauche {
