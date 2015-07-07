@@ -181,6 +181,31 @@ header nav li a:first-letter {
     clear: both;
 }
 
+th, td {
+    padding-left : 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+th {
+    background-color: #4aacc5;
+    color: white;
+    font-weight: normal;
+}
+
+tr:nth-child(odd) {
+    background-color: #d0e2ea;
+}
+
+tr:nth-child(even) {
+    background-color: #e9f0f5;
+}
+
+td {
+    text-align: center;
+}
+
 footer {
     background: url("images/decoration-page-300x92.png")
                    no-repeat center center;
