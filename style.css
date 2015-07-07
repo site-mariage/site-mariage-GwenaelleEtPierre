@@ -188,10 +188,14 @@ th, td {
     padding-bottom: 10px;
 }
 
-th {
+thead th {
     background-color: #4aacc5;
     color: white;
     font-weight: normal;
+}
+
+tbody th {
+    background-color: white;
 }
 
 tr:nth-child(odd) {
