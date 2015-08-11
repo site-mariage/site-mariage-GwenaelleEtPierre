@@ -130,12 +130,17 @@ header nav li a:first-letter {
 #contenu h2 {
     font-family: "Josefin Sans";
     clear: both;
+    padding-top: 30px;
 }
 
 #contenu .photo {
     display: block;
     border: #cccccc solid 1px;
     margin-bottom: 50px;
+}
+
+#contenu .bloc {
+    display: block;
 }
 
 #contenu .centree {
