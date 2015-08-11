@@ -133,6 +133,11 @@ header nav li a:first-letter {
     padding-top: 30px;
 }
 
+#contenu h3 {
+    font-weight: normal;
+    font-style: italic;
+}
+
 #contenu .photo {
     display: block;
     border: #cccccc solid 1px;
