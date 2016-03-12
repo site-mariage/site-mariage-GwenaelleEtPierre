@@ -1,6 +1,5 @@
 ---
 ---
-{% include base.html %}
 
 $header-color: #006EB6;
 $header-nav-color: #006EB6;
@@ -38,13 +37,13 @@ $mail-color: #0051BA;
 
 @font-face {
     font-family: "Gabrielle";
-    src: url("{{base}}/polices/Gabrielle.ttf") format("truetype");
+    src: url("{{site.baseurl}}/polices/Gabrielle.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    background: url("{{base}}/images/fond.jpg") center top no-repeat ivory;
+    background: url("{{site.baseurl}}/images/fond.jpg") center top no-repeat ivory;
     background-size: 100%;
     background-attachment: fixed;
 }
@@ -234,7 +233,7 @@ td {
 }
 
 footer {
-    background: url("{{base}}/images/decoration-page-300x92.png")
+    background: url("{{site.baseurl}}/images/decoration-page-300x92.png")
                    no-repeat center center;
     margin: auto;
     margin-top: 20px;
