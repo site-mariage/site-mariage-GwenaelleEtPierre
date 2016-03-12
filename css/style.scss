@@ -1,3 +1,16 @@
+---
+---
+
+$header-color: #006EB6;
+$header-nav-color: #006EB6;
+$header-nav-hover-color: #0084C9;
+
+$pagetitle-color: #005B99;
+
+$main-color: #00386B;
+$link-color: #008DE6;
+$mail-color: #0051BA;
+
 @font-face {
     font-family: "Josefin Sans";
     font-style: normal;
@@ -26,9 +39,8 @@
     font-family: "Gabrielle";
     src: url("/polices/Gabrielle.ttf") format("truetype");
     font-weight: normal;
-    font-style normal;
+    font-style: normal;
 }
-
 
 body {
     background: url("/images/fond.png") center top no-repeat ivory;
@@ -44,7 +56,7 @@ header h1 {
     font-family: "Gabrielle";
     text-align: center;
     font-weight: normal;
-    color: DarkTurquoise;
+    color: $header-color;
     font-size: 4em;
 }
 
@@ -57,7 +69,7 @@ header h2 {
     font-family: "Gabrielle";
     text-align: center;
     font-weight: normal;
-    color: DarkTurquoise;
+    color: $header-color;
     position: relative;
     top: -30px;
     font-size: 2em;
@@ -78,12 +90,12 @@ header nav li {
     display: inline-block;
     width: 19.63%;
     height: 50px;
-    background-color: #0AB;
+    background-color: $header-nav-color;
     margin: 0px;
 }
 
 header nav li:hover {
-    background-color: #0CD;
+    background-color: $header-nav-hover-color;
 }
 
 header nav li a {
@@ -108,7 +120,7 @@ header nav li a:first-letter {
     background-color: rgba(255,255,255,0.7);
     padding: 0;
     padding-bottom: 20px;
-    color: #005859;
+    color: $main-color;
     font-family: "Maven Pro";
 }
 
@@ -121,10 +133,10 @@ header nav li a:first-letter {
     background-color: white;
     margin: 0;
     padding: 15px;
-    border-bottom: 2px solid #777;
+    border-bottom: 2px solid $pagetitle-color;
     text-align: center;
     font-family: "Josefin Sans";
-    color: #777;
+    color: $pagetitle-color;
 }
 
 #contenu h2 {
@@ -175,7 +187,7 @@ header nav li a:first-letter {
 }
 
 #contenu a {
-    color: #4078C0;
+    color: $link-color;
     text-decoration: none;
 }
 
@@ -184,7 +196,7 @@ header nav li a:first-letter {
 }
 
 #contenu a[href^=mailto] {
-    color: #00E;
+    color: $mail-color;
 }
 
 .clear_float {
