@@ -37,13 +37,13 @@ $mail-color: #0051BA;
 
 @font-face {
     font-family: "Gabrielle";
-    src: url("/polices/Gabrielle.ttf") format("truetype");
+    src: url("{{base}}/polices/Gabrielle.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    background: url("/images/fond.jpg") center top no-repeat ivory;
+    background: url("{{base}}/images/fond.jpg") center top no-repeat ivory;
     background-size: 100%;
     background-attachment: fixed;
 }
@@ -233,7 +233,7 @@ td {
 }
 
 footer {
-    background: url("/images/decoration-page-300x92.png")
+    background: url("{{base}}/images/decoration-page-300x92.png")
                    no-repeat center center;
     margin: auto;
     margin-top: 20px;
