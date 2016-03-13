@@ -42,10 +42,19 @@ $mail-color: #0051BA;
     font-style: normal;
 }
 
-body {
-    background: url("{{site.baseurl}}/images/fond.jpg") center top no-repeat ivory;
-    background-size: 100%;
+html {
+    background: url("{{site.baseurl}}/images/fond.jpg") center center no-repeat;
+    background-size: cover;
     background-attachment: fixed;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#bloc_page {
+    padding-bottom: 20px;
 }
 
 header {
