@@ -212,6 +212,28 @@ header nav li a:first-letter {
     color: $mail-color;
 }
 
+#contenu .chant {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#contenu .chant iframe {
+    margin-top: 10px;
+}
+
+#contenu .refrain {
+    font-weight: bold;
+}
+
+#contenu .refrain, #contenu .couplets li {
+    white-space: pre;
+}
+
+#contenu .couplets li {
+    margin-bottom: 1em;
+}
+
 .clear_float {
     clear: both;
 }
