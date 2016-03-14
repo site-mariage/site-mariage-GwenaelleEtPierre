@@ -105,6 +105,7 @@ header nav li {
     height: 50px;
     background-color: $header-nav-color;
     margin: 0px;
+    white-space: nowrap;
 }
 
 header nav li:hover {
