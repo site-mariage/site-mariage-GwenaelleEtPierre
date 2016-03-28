@@ -218,25 +218,30 @@ a:focus {
     color: $mail-color;
 }
 
-#contenu .chant {
-    width: 100%;
-    margin: auto;
+.chant {
     text-align: center;
 }
 
-#contenu .chant iframe {
+.chant iframe {
     margin-top: 10px;
 }
 
-#contenu .refrain {
+.chant .refrain {
     font-weight: bold;
 }
 
-#contenu .refrain, #contenu .couplets li {
-    white-space: pre;
+.chant .couplets {
+    padding: none;
+    counter-reset: numCouplet;
 }
 
-#contenu .couplets li {
+.chant .couplets li:before {
+    counter-increment: numCouplet;
+    content: counter(numCouplet) ". ";
+}
+
+.chant .couplets li {
+    display: block;
     margin-bottom: 1em;
 }
 
