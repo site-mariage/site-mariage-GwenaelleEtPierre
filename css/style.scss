@@ -61,11 +61,11 @@ a:focus {
     outline: none;
 }
 
-header {
+#bloc_page > header {
     margin-bottom: 20px;
 }
 
-header h1 {
+#bloc_page > header h1 {
     font-family: "Gabrielle";
     text-align: center;
     font-weight: normal;
@@ -73,12 +73,12 @@ header h1 {
     font-size: 4em;
 }
 
-header h1 a {
+#bloc_page > header h1 a {
     color: inherit;
     text-decoration: inherit;
 }
 
-header h2 {
+#bloc_page > header h2 {
     font-family: "Gabrielle";
     text-align: center;
     font-weight: normal;
@@ -88,18 +88,18 @@ header h2 {
     font-size: 2em;
 }
 
-header nav {
+#bloc_page > header nav {
     display: block;
     max-width: 950px;
     margin: auto;
 }
 
-header nav ul {
+#bloc_page > header nav ul {
     margin: 0px;
     padding: 0px;
 }
 
-header nav li {
+#bloc_page > header nav li {
     display: inline-block;
     width: 16.2%;
     height: 50px;
@@ -109,11 +109,11 @@ header nav li {
     font-size: 90%;
 }
 
-header nav li:hover {
+#bloc_page > header nav li:hover {
     background-color: $header-nav-hover-color;
 }
 
-header nav li a {
+#bloc_page > header nav li a {
     display: block;
     text-align: center;
     text-decoration: none;
@@ -124,7 +124,7 @@ header nav li a {
     font-weight: bold;
 }
 
-header nav li a:first-letter {
+#bloc_page > header nav li a:first-letter {
     font-size: 1.2em;
 }
 
@@ -144,13 +144,16 @@ header nav li a:first-letter {
     margin-right: 50px;
 }
 
-#contenu h1 {
+#contenu > header {
     background-color: white;
     margin: 0;
     padding: 15px;
     border-bottom: 2px solid $pagetitle-color;
     text-align: center;
     font-family: "Josefin Sans";
+}
+
+#contenu > header h1 {
     color: $pagetitle-color;
 }
 
