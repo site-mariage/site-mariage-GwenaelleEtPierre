@@ -122,6 +122,7 @@ a:focus {
     margin-top: 13px;
     font-family: "Josefin Sans";
     font-weight: bold;
+    white-space: pre;
 }
 
 #bloc_page > header nav li a:first-letter {
@@ -147,20 +148,44 @@ a:focus {
 #contenu > header {
     background-color: white;
     margin: 0;
-    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: 2px solid $pagetitle-color;
     text-align: center;
-    font-family: "Josefin Sans";
 }
 
 #contenu > header h1 {
     color: $pagetitle-color;
+    margin: 0;
+    padding: 0;
+    font-family: "Gabrielle";
+    font-size: 2.3em;
+    font-weight: normal;
+}
+
+#contenu section {
+    clear: both;
+}
+
+#contenu > section {
+    margin-top: 50px;
+}
+
+#contenu section header h1 {
+    font-family: "Gabrielle";
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+}
+
+#contenu section header h1 * {
+    vertical-align: middle;
+    margin: 20px;
 }
 
 #contenu h2 {
     font-family: "Josefin Sans";
-    clear: both;
-    padding-top: 30px;
 }
 
 #contenu h3 {
@@ -191,6 +216,30 @@ a:focus {
 
 #contenu .droite {
     float: right;
+}
+
+.avec_image_centree, .avec_image_droite, .avec_image_gauche {
+    margin-top: 70px;
+}
+
+.avec_image_droite img {
+    margin-left: 50px;
+    float: right;
+}
+
+.avec_image_gauche img {
+    margin-right: 50px;
+    float: left;
+}
+
+.avec_image_centree h2, .avec_image_centree h3 {
+    text-align:center;
+}
+
+.avec_image_centree img {
+    margin-top: 35px;
+    margin-bottom: 40px;
+    margin: auto;
 }
 
 #contenu .cadre_10 {
