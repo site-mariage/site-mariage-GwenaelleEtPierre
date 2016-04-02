@@ -171,21 +171,31 @@ a:focus {
     margin-top: 50px;
 }
 
+#contenu > section header {
+    text-align: center;
+}
+
 #contenu section header h1 {
     font-family: "Gabrielle";
     font-weight: normal;
     font-size: 2em;
-    text-align: center;
     margin: auto;
 }
 
 #contenu section header h1 * {
     vertical-align: middle;
-    margin: 20px;
+    margin-top: 20px;
 }
 
+#contenu ul {
+    text-align: left;
+}
+
+
 #contenu h2 {
-    font-family: "Josefin Sans";
+    font-family: "Gabrielle";
+    font-weight: normal;
+    font-size: 1.7em;
 }
 
 #contenu h3 {
@@ -219,21 +229,31 @@ a:focus {
 }
 
 .avec_image_centree, .avec_image_droite, .avec_image_gauche {
-    margin-top: 70px;
+    margin-top: 60px;
+}
+
+.avec_image_gauche {
+    text-align: left;
+}
+
+.avec_image_droite {
+    text-align: right;
+}
+
+.avec_image_centree {
+    text-align: center;
 }
 
 .avec_image_droite img {
+    margin-top: 10px;
     margin-left: 50px;
     float: right;
 }
 
 .avec_image_gauche img {
+    margin-top: 10px;
     margin-right: 50px;
     float: left;
-}
-
-.avec_image_centree h2, .avec_image_centree h3 {
-    text-align:center;
 }
 
 .avec_image_centree img {
