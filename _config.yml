@@ -16,3 +16,6 @@ github_username:  thizanne
 
 # Build settings
 markdown: kramdown
+
+# Global variables
+url-liste: http://www.millemercismariage.com/gwenaetpierre/liste.html
