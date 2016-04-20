@@ -10,8 +10,8 @@ title: Gwenaëlle et Pierre
 email: thi.suzanne@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Site du mariage de Gwenaëlle et Pierre
-baseurl: "/site-mariage-GwenaelleEtPierre" # the subpath of your site, e.g. /blog
-url: "http://thizanne.github.io/" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://mariage-gwenaelleetpierre.fr/" # the base hostname & protocol for your site
 github_username:  thizanne
 
 # Build settings
